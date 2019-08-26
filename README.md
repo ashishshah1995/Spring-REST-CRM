@@ -14,7 +14,8 @@ Developed Sprint REST API application using Spring framework for allowing a clie
 
 
 
-## Steps to setup the database
+## Steps to setup the database and Running the appication
+```
 
 1. Mysql Database and workbench should be installed to the local machine which the application is going to run. (MySQL can be downlaoded from http://dev.mysql.com/downloads)
 
@@ -22,13 +23,7 @@ Developed Sprint REST API application using Spring framework for allowing a clie
 - create-user.sql
 - employee-directory.sql
 
-
-# Running the application:
-```
-
-a. Select the root project folder
-
-b. Right-Click, select Run As > Run On Server (A tomcat server should have been installed in your local machine)
+3. Right-Click, select Run As > Run On Server (A tomcat server should have been installed in your local machine)
 ```
 
 # HTTP Methods
