@@ -26,41 +26,23 @@ Build Sprint REST API application using Spring framework for allowing a client t
 
 
 # Running the application:
+```
 
 a. Select the root project folder
 
 b. Right-Click, select Run As > Run On Server (A tomcat server should have been installed in your local machine)
 
 
-
-
-
-
-
 GET http://localhost:8080/spring-crm-rest/api/customers (Selects all customers)
+
 GET http://localhost:8080/spring-crm-rest/api/customers/1 (Select customer with having the id 1)
+
 POST http://localhost:8080/spring-crm-rest/api/customers (Insert a new customer)
 
-Body;
+PUT  http://localhost:8080/spring-crm-rest/api/customers (Update an existing customer)
 
-{
-  "id":0,
-  "firstName": "Gorkem",
-  "lastName": "Turan",
-  "email": "gorkem@luv2code.com"
-}
+DELETE  http://localhost:8080/spring-crm-rest/api/customers/2 (Delete a customer with id 2)
 
-PUT http://localhost:8080/spring-crm-rest/api/customers (Update the customer with having the id 6)
-  
-Body;
-
-{
-  "id":6,
-  "firstName": "Gorkem",
-  "lastName": "Turan",
-  "email": "gorkem.turan@luv2code.com"
-}
-
-DELETE http://localhost:8080/spring-crm-rest/api/customers/6 (Delete the customer with the id 6)
+```
 
 ![a](https://user-images.githubusercontent.com/26305085/63658429-7b4a9880-c778-11e9-86fb-430518ccd670.gif)
