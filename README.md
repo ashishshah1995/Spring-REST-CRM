@@ -1,6 +1,6 @@
 # Spring-REST-CRM
 
-Build Sprint REST API application using Spring framework for allowing a client to make **Create, Read, Update and Delete** operations on a list of Customers. 
+Build Sprint REST API application using Spring framework for allowing a client to make **Create, Read, Update and Delete** operations on a list of Customers. Used `Jackson Data Binding API` for data binding between JSON and Java POJO  
 
 # Operations
 
@@ -12,9 +12,7 @@ Build Sprint REST API application using Spring framework for allowing a client t
 | PUT | api/customers     |    Update an existing customer   |
 | DELETE | api/customers/{customerId} | Delete a customer |
 
-1. Exception Handling 
 
-2. Jackson to convert request body from JSON to POJO
 
 ## Steps to setup the database
 
@@ -36,15 +34,15 @@ b. Right-Click, select Run As > Run On Server (A tomcat server should have been 
 # HTTP Methods
 ```
 
-GET http://localhost:8080/spring-crm-rest/api/customers (Selects all customers)
+**GET** http://localhost:8080/spring-crm-rest/api/customers (Selects all customers)
 
-GET http://localhost:8080/spring-crm-rest/api/customers/1 (Select customer with having the id 1)
+**GET** http://localhost:8080/spring-crm-rest/api/customers/1 (Select customer with having the id 1)
 
-POST http://localhost:8080/spring-crm-rest/api/customers (Insert a new customer)
+**POST** http://localhost:8080/spring-crm-rest/api/customers (Insert a new customer)
 
-PUT  http://localhost:8080/spring-crm-rest/api/customers (Update an existing customer)
+**PUT**  http://localhost:8080/spring-crm-rest/api/customers (Update an existing customer)
 
-DELETE  http://localhost:8080/spring-crm-rest/api/customers/2 (Delete a customer with id 2)
+**DELETE**  http://localhost:8080/spring-crm-rest/api/customers/2 (Delete a customer with id 2)
 
 ```
 
