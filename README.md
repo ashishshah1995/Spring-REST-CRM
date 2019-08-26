@@ -1,6 +1,6 @@
 # Spring-REST-CRM
 
-Developed Sprint REST API application using Spring framework for allowing a client to make **Create, Read, Update and Delete** operations on a list of Customers. Used `Jackson Data Binding API` for data binding between JSON and Java POJO  
+Developed Sprint REST API application using Spring framework for allowing a client to make **Create, Read, Update and Delete** operations on a list of Customers. Used **Jackson Data Binding API** for data binding between JSON and Java POJO. Used **Postman** as testing tool for HTTP methods
 
 # Operations
 
