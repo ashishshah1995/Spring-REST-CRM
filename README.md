@@ -12,6 +12,10 @@ Build Sprint REST API application using Spring framework for allowing a client t
 | PUT | api/customers     |    Update an existing customer   |
 | DELETE | api/customers/{customerId} | Delete a customer |
 
+1. Exception Handling 
+
+2. Jackson to convert request body from JSON to POJO
+
 ## Steps to setup the database
 
 1. Mysql Database and workbench should be installed to the local machine which the application is going to run. (MySQL can be downlaoded from http://dev.mysql.com/downloads)
@@ -23,32 +27,14 @@ Build Sprint REST API application using Spring framework for allowing a client t
 
 # Running the application:
 
-
 a. Select the root project folder
 
 b. Right-Click, select Run As > Run On Server (A tomcat server should have been installed in your local machine)
 
 
 
-d. EMPLOYEE role can perform following;
 
-  1. Get a list of all customers. GET /api/customers
-  2. Get a single customer. GET /api/customers/{customerId}
-  
-  MANAGER role can perform following in addition to EMPLOYEE;
-  
-  1. Add a new customer. POST /api/customers
-  2. Update an existing customer. PUT /api/customers
-  
-  ADMIN role can perform following in addition to MANAGER;
-  
-  1. Delete a customer. DELETE /api/customers/{customerId}
 
-  User 'susan' with the password test123 has the admin rights, can perform all actions.
-
- 
-e. If you have Postman installed, you may make the following HTTP requests (Do not forget to enter the credentials as
-susan, test123 in the authorization tab); 
 
 
 GET http://localhost:8080/spring-crm-rest/api/customers (Selects all customers)
