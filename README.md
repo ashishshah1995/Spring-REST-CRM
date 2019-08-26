@@ -34,15 +34,15 @@ b. Right-Click, select Run As > Run On Server (A tomcat server should have been 
 # HTTP Methods
 ```
 
-**GET** http://localhost:8080/spring-crm-rest/api/customers (Selects all customers)
+GET- http://localhost:8080/spring-crm-rest/api/customers (Selects all customers)
 
-**GET** http://localhost:8080/spring-crm-rest/api/customers/1 (Select customer with having the id 1)
+GET- http://localhost:8080/spring-crm-rest/api/customers/1 (Select customer with having the id 1)
 
-**POST** http://localhost:8080/spring-crm-rest/api/customers (Insert a new customer)
+POST- http://localhost:8080/spring-crm-rest/api/customers (Insert a new customer)
 
-**PUT**  http://localhost:8080/spring-crm-rest/api/customers (Update an existing customer)
+PUT-  http://localhost:8080/spring-crm-rest/api/customers (Update an existing customer)
 
-**DELETE**  http://localhost:8080/spring-crm-rest/api/customers/2 (Delete a customer with id 2)
+DELETE- http://localhost:8080/spring-crm-rest/api/customers/2 (Delete a customer with id 2)
 
 ```
 
