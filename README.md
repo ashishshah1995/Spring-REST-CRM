@@ -31,7 +31,10 @@ Build Sprint REST API application using Spring framework for allowing a client t
 a. Select the root project folder
 
 b. Right-Click, select Run As > Run On Server (A tomcat server should have been installed in your local machine)
+```
 
+# HTTP Methods
+```
 
 GET http://localhost:8080/spring-crm-rest/api/customers (Selects all customers)
 
